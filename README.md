@@ -1,7 +1,8 @@
 # Task
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.1.
-Sublime Text was used as codeeditor, Github as version control. 
+
+Sublime Text was used as code editor, Github as version control. 
 
 ## Development server
 
