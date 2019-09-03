@@ -2,15 +2,12 @@
     <li *ngFor="let item of list">
       {{ item | json }}
     </li>
-  </ul>
+</ul>
 
 <form [formGroup]="newForm">
-  
   <div class='container'>
     <label for="name">Name</label>
     <input id="name" type="text" formControlName="name" required>
   </div>
-
   <button class="login-button" (click)="addNew()">Add new</button>
-
 </form>
