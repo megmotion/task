@@ -1,12 +1,18 @@
-<div>
-  <button>
-    <a routerLink="/">Log in</a>
-  </button>
-  <button>
-    <a routerLink="/list">Item list</a>
-  </button>
+<div class='container'>
+	<div class='top-bar'>
+	  <button  >
+	    <a routerLink="/">Log in</a>
+	  </button>
+	   <button (click)="logout()" routerLink="/" *ngIf=this.apiService.loggedIn>
+	    Log out
+	  </button>
+	  <button *ngIf=this.apiService.loggedIn>
+	    <a  routerLink="/list" >Item list</a>
+	  </button>
+	</div>
+
+	<div>
+	  <router-outlet></router-outlet>
+	</div>
 </div>
 
-<div>
-  <router-outlet></router-outlet>
-</div>

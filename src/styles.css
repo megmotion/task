@@ -1,1 +1,49 @@
 /* You can add global styles to this file, and also import other style files */
+* {
+	font-family: Arial;
+}
+.container {
+	margin:10px;
+}
+.top-bar {
+	width: 60%;
+	height: 68px;
+	background-color: darkcyan;
+	padding: 0px 16px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+button {
+	background-color: white;
+    color: ddarkcyan;
+    display: inline-flex;
+	align-items: center;
+	padding: 8px 16px;
+	border-radius: 2px;
+	font-size: 14px;
+	cursor: pointer;
+	border: none;
+}
+
+.login-button {
+	background-color: darkcyan;
+    color: white;
+}
+
+label{
+	width: 8vw;
+	padding: 8px;
+  	display: inline-block;
+}
+
+input{
+	margin: 6px;
+}
+
+ul {
+	margin-top:20px;
+  	list-style-type: none;
+}
